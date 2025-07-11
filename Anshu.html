@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anshu Rajhans | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(160deg, #1f0037, #3c005a, #110017);
+      background-size: 400% 400%;
+      animation: bgShift 20s ease infinite;
+      color: #f3f3f3;
+    }
+
+    @keyframes bgShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    .profile-pic {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ff4081;
+      box-shadow: 0 0 20px rgba(255, 64, 129, 0.7);
+      animation: glowPulse 3s ease-in-out infinite;
+    }
+
+    @keyframes glowPulse {
+      0% { box-shadow: 0 0 10px #ff4081; }
+      50% { box-shadow: 0 0 25px #ff4081; }
+      100% { box-shadow: 0 0 10px #ff4081; }
+    }
+
+    h1 {
+      margin-top: 15px;
+      font-size: 28px;
+      color: #fff;
+    }
+
+    .title {
+      color: #bbb;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    main {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .btns {
+      margin: 20px 0;
+    }
+
+    .btns a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #ff4081;
+      color: white;
+      text-decoration: none;
+      border-radius: 20px;
+      font-weight: bold;
+      box-shadow: 0 4px 14px rgba(255, 64, 129, 0.6);
+      transition: 0.3s ease;
+    }
+
+    .btns a:hover {
+      background: #e73370;
+      transform: scale(1.05);
+    }
+
+    .social {
+      margin-top: 15px;
+    }
+
+    .social a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #ff90c1;
+      font-weight: bold;
+    }
+
+    footer {
+      background: linear-gradient(to right, #2c003e, #ff4081);
+      color: white;
+      text-align: center;
+      padding: 25px 10px;
+      font-size: 16px;
+      margin-top: 50px;
+    }
+
+    .v2 {
+      font-weight: bold;
+      font-size: 18px;
+      animation: pulse 2s infinite;
+      margin-top: 10px;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.05); }
+      100% { opacity: 0.6; transform: scale(1); }
+    }
+
+    .footer-small {
+      font-size: 14px;
+      margin-top: 8px;
+    }
+
+    .footer-small a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://i.postimg.cc/XJDhmKvV/Anshu.jpg" alt="Anshu Photo" class="profile-pic">
+  <h1>Anshu Rajhans</h1>
+  <div class="title">Beginner Web Developer</div>
+</header>
+
+<main>
+  <p>Hi 👋 I'm Anshu!  
+  I'm completely new to the world of coding and web development.  
+  This is my very first website and my first ever personal portfolio 😄  
+  I'm here to learn, explore, and slowly build something awesome!</p>
+
+  <div class="btns">
+    <a href="https://github.com/zuxo-k" target="_blank">GitHub</a>
+    <a href="https://www.instagram.com/anshu_rajhans09?igsh=ZmNteWJhZTNqbWY1" target="_blank">Instagram</a>
+  </div>
+
+  <div class="social">
+    📧 Email: <a href="mailto:rajhansanshukumar@gmail.com">rajhansanshukumar@gmail.com</a>
+  </div>
+</main>
+
+<footer>
+  <p>Thanks for visiting! 💖</p>
+  <p class="v2">🚀 V2 is also coming soon...</p>
+  <p class="footer-small">Made with ❤️ by Anshu Rajhans</p>
+  <p class="footer-small">V2 Progress: 3% complete 👨‍💻</p>
+  <p class="footer-small"><a href="#">↑ Back to top</a></p>
+</footer>
+
+</body>
+</html>
